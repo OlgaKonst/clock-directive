@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="./app/my-app.module.js"></script>
+    <script src="./app/main.controller.js"></script>
+    <script src="./app/directives/clock.directive.js"></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="MainController">
+    <!--<select ng-model="format" ng-options="opt as opt for opt in options"></select>-->
+    <clock format="format"></clock>
+</div>
+
+</body>
+</html>
